@@ -1,0 +1,21 @@
+{% extends 'layouts/base.html' %}
+
+{% block title %}Liste des artistes{% endblock %}
+
+{% block content %}
+    <div class="list-group">
+        {% for artist in artists %}
+            <a href="#" class="list-group-item list-group-item-action">
+                <div class="d-flex w-100 justify-content-between">
+                    <h5 class="mb-1">{{ artist.firstname }} {{ artist.lastname }}</h5>
+                </div>
+            </a>
+        {% empty %}
+            <a href="#" class="list-group-item list-group-item-action disabled">
+                <div class="d-flex w-100 justify-content-between">
+                    <h5 class="mb-1">Désolé, aucun artiste n'est disponible.</h5>
+                </div>
+            </a>
+        {% endfor %}
+    </div>
+{% endblock %}
