@@ -6,7 +6,7 @@
       "slug": "espace-delvaux-la-venerie",
       "designation": "Espace Delvaux / La Vénerie",
       "address": "3 rue Gratès",
-      "locality": 5,
+      "locality": 15,
       "website": "https://www.lavenerie.be",
       "phone": "+32 (0)2/663.85.50"
     }
@@ -18,7 +18,7 @@
       "slug": "dexia-art-center",
       "designation": "Dexia Art Center",
       "address": "50 rue de l'Ecuyer",
-      "locality": 1,
+      "locality": 5,
       "website": null,
       "phone": null
     }
@@ -30,7 +30,7 @@
       "slug": "la-samaritaine",
       "designation": "La Samaritaine",
       "address": "16 rue de la samaritaine",
-      "locality": 1,
+      "locality": 11,
       "website": "http://www.lasamaritaine.be/",
       "phone": null
     }
@@ -42,7 +42,7 @@
       "slug": "espace-magh",
       "designation": "Espace Magh",
       "address": "17 rue du Poinçon",
-      "locality": 1,
+      "locality": 7,
       "website": "http://www.espacemagh.be",
       "phone": "+32 (0)2/274.05.10"
     }
