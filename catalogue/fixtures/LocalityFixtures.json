@@ -3,29 +3,37 @@
         "model": "catalogue.locality",
         "pk": 1,
         "fields": {
-            "postal_code": "1000",
-            "locality": "Bruxelles"
+            "postal_code": "1070",
+            "locality": "Anderlecht"
         }
     },
     {
         "model": "catalogue.locality",
         "pk": 2,
         "fields": {
-            "postal_code": "1020",
-            "locality": "Laeken"
+            "postal_code": "1160",
+            "locality": "Auderghem"
         }
     },
     {
         "model": "catalogue.locality",
         "pk": 3,
         "fields": {
-            "postal_code": "1030",
-            "locality": "Schaerbeek"
+            "postal_code": "1082",
+            "locality": "Berchem-Sainte-Agathe"
         }
     },
     {
         "model": "catalogue.locality",
         "pk": 4,
+        "fields": {
+            "postal_code": "1000",
+            "locality": "Bruxelles"
+        }
+    },
+    {
+        "model": "catalogue.locality",
+        "pk": 5,
         "fields": {
             "postal_code": "1040",
             "locality": "Etterbeek"
@@ -33,7 +41,31 @@
     },
     {
         "model": "catalogue.locality",
-        "pk": 5,
+        "pk": 6,
+        "fields": {
+            "postal_code": "1140",
+            "locality": "Evere"
+        }
+    },
+    {
+        "model": "catalogue.locality",
+        "pk": 7,
+        "fields": {
+            "postal_code": "1190",
+            "locality": "Forest"
+        }
+    },
+    {
+        "model": "catalogue.locality",
+        "pk": 8,
+        "fields": {
+            "postal_code": "1083",
+            "locality": "Ganshoren"
+        }
+    },
+    {
+        "model": "catalogue.locality",
+        "pk": 9,
         "fields": {
             "postal_code": "1050",
             "locality": "Ixelles"
@@ -41,31 +73,15 @@
     },
     {
         "model": "catalogue.locality",
-        "pk": 6,
+        "pk": 10,
         "fields": {
-            "postal_code": "1060",
-            "locality": "Saint-Gilles"
+            "postal_code": "1090",
+            "locality": "Jette"
         }
     },
     {
         "model": "catalogue.locality",
-        "pk": 7,
-        "fields": {
-            "postal_code": "1070",
-            "locality": "Anderlecht"
-        }
-    },
-    {
-        "model": "catalogue.locality",
-        "pk": 8,
-        "fields": {
-            "postal_code": "1080",
-            "locality": "Molenbeek-Saint-Jean"
-        }
-    },
-    {
-        "model": "catalogue.locality",
-        "pk": 9,
+        "pk": 11,
         "fields": {
             "postal_code": "1081",
             "locality": "Koekelberg"
@@ -73,10 +89,66 @@
     },
     {
         "model": "catalogue.locality",
-        "pk": 10,
+        "pk": 12,
         "fields": {
-            "postal_code": "1082",
-            "locality": "Berchem-Sainte-Agathe"
+            "postal_code": "1080",
+            "locality": "Molenbeek-Saint-Jean"
+        }
+    },
+    {
+        "model": "catalogue.locality",
+        "pk": 13,
+        "fields": {
+            "postal_code": "1060",
+            "locality": "Saint-Gilles"
+        }
+    },
+    {
+        "model": "catalogue.locality",
+        "pk": 14,
+        "fields": {
+            "postal_code": "1210",
+            "locality": "Saint-Josse-ten-Noode"
+        }
+    },
+    {
+        "model": "catalogue.locality",
+        "pk": 15,
+        "fields": {
+            "postal_code": "1030",
+            "locality": "Schaerbeek"
+        }
+    },
+    {
+        "model": "catalogue.locality",
+        "pk": 16,
+        "fields": {
+            "postal_code": "1180",
+            "locality": "Uccle"
+        }
+    },
+    {
+        "model": "catalogue.locality",
+        "pk": 17,
+        "fields": {
+            "postal_code": "1170",
+            "locality": "Watermael-Boitsfort"
+        }
+    },
+    {
+        "model": "catalogue.locality",
+        "pk": 18,
+        "fields": {
+            "postal_code": "1200",
+            "locality": "Woluwe-Saint-Lambert"
+        }
+    },
+    {
+        "model": "catalogue.locality",
+        "pk": 18,
+        "fields": {
+            "postal_code": "1150",
+            "locality": "Woluwe-Saint-Pierre"
         }
     }
 ]
