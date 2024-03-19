@@ -17,7 +17,7 @@ def show(request, location_id):
 	try:
 		location = Location.objects.get(id=location_id)
 	except Location.DoesNotExist:
-		raise Http404('Lieu inexistant');
+		raise Http404('Lieu inexistant')
 		
 	title = "Fiche d'un lieu de spectacle"
 	

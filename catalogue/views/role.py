@@ -17,7 +17,7 @@ def show(request, role_id):
 	try:
 		role = Role.objects.get(id=role_id)
 	except Role.DoesNotExist:
-		raise Http404('Role inexistant');
+		raise Http404('Role inexistant')
 		
 	title = 'Fiche d\'un role'
 	

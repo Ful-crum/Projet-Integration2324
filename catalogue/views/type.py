@@ -17,7 +17,7 @@ def show(request, type_id):
 	try:
 		type = Type.objects.get(id=type_id)
 	except Type.DoesNotExist:
-		raise Http404('Type inexistant');
+		raise Http404('Type inexistant')
 		
 	title = 'Fiche d\'un type'
 	

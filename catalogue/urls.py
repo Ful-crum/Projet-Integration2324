@@ -1,6 +1,8 @@
 """reservations.catalogue URL Configuration
 """
 from django.urls import path
+from .views import *
+from .views import show 
 
 from . import views
 
@@ -17,7 +19,7 @@ urlpatterns = [
     path('role/<int:role_id>', views.role.show, name='role_show'),
     path('location/', views.location.index, name='location_index'),
 	path('location/<int:location_id>', views.location.show, name='location_show'),
-    #path('show/', views.show.index, name='show_index'),
-    #path('show/<int:show_id>', views.show.show, name='show_show'),
+    path('show/', views.show_.index, name='show_index'),
+    path('show/<int:show_id>', views.show_.show, name='show_show'),
 
 ]
