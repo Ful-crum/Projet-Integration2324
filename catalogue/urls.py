@@ -21,5 +21,7 @@ urlpatterns = [
 	path('location/<int:location_id>', views.location.show, name='location_show'),
     path('show/', views.show_.index, name='show_index'),
     path('show/<int:show_id>', views.show_.show, name='show_show'),
+    path('representation/', views.representation.index, name='representation_index'),
+    path('representation/<int:show_id>', views.representation.show, name='representation_show'),
 
 ]
